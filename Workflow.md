@@ -1,5 +1,5 @@
 # Workflow
-How to address common development scenarios. Not a strict set of rules but a collection of rec ipes that might be useful.
+How to address common development scenarios. **Not a strict set of rules but a collection of recipes that might be useful**.
 
 ## Working on a task and you know what to do
 1. Assign the task to yourself
@@ -33,7 +33,7 @@ Start by chat with people in the slack channel for quick help. In case you need 
 
 ## Working on a task that depends on another with pending PR
 Let's say you worked on `task123`, and submitted a PR. Now you want to work on `task456`, which depends on the previous task.
-It's the same as _Working on a task and you know what to do_, except
+It's the same as *Working on a task and you know what to do*, except
 
 3. Start from `task123--change-app-title`:
    ```bash
@@ -44,5 +44,5 @@ It's the same as _Working on a task and you know what to do_, except
    ```bash
    git checkout -b task456--make-app-title-bigger
    ```
-So now you can work on this as usual. Be careful that *this branch brings other branch's changes as well*, so if the previous changes you might change this as well.
+So now you can work on this as usual. Be careful that **this branch brings other branch's changes as well**, so if the previous changes you might change this as well.
 Use this scenario wisely
